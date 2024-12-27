@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="form-container">
+        <h2 id="greeting"></h2>
+        <button onclick="logout()">Logout</button>
+    </div>
+
+    <script>
+        // Example: you would retrieve the user's name from the backend or session
+        const userFirstName = "John"; // Replace with dynamic data
+        const userLastName = "Doe";   // Replace with dynamic data
+
+        // Set greeting based on time of day
+        const hours = new Date().getHours();
+        let greeting = "Good ";
+
+        if (hours < 12) {
+            greeting += "Morning";
+        } else if (hours < 18) {
+            greeting += "Afternoon";
+        } else {
+            greeting += "Evening";
+        }
+
+        document.getElementById('greeting').innerText = `${greeting} Mr. ${userFirstName} ${userLastName}`;
+
+        function logout() {
+            // Redirect to login page or handle logout logic
+            window.location.href = 'login.html';
+        }
+    </script>
+</body>
+</html>
