@@ -27,4 +27,11 @@ Landing Page: A personalized greeting message based on the time of day is displa
 
 **Screenshot**
 ![image](https://github.com/user-attachments/assets/f3ec8ec8-1320-4cd1-a98e-e9ad975ad80b)
+![image](https://github.com/user-attachments/assets/5f300d43-6cfc-4773-ac45-6e2b64999749)
+![image](https://github.com/user-attachments/assets/8044e3a5-844e-4f17-8ded-afe7200c881c)
+![image](https://github.com/user-attachments/assets/3b502017-3d26-4561-9446-66d672178929)
+
+
+
+
 
